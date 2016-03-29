@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.messages-container{
+    background-color: black;
+    height: 500px;
+
+}
+
+#conversation {
+    background-color: #EDEDED;
+    width: 500px;
+    height: 100%;
+    display: inline-block;
+
+}
+#online-users {
+    display: inline-block;
+    background-color: #292929;
+    height: 100%;
+    width: 300px;
+    vertical-align: top;
+}
+
+#online-users ul {
+    list-style-type: none;
+
+}
+
+#online-users .username {
+    color: white;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding: 5px 0px;
+}
+#online-users .username:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+

@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="768dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:text="@string/violationInfo"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/violation_provide" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:hint="@string/violation_plate"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText1"
+            android:layout_below="@+id/editText1"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:hint="@string/violation_location"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_below="@+id/editText2"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="@string/violation_desc"
+            android:inputType="textMultiLine"
+            android:maxHeight="50dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/editText3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="124dp"
+            android:background="#F0F0F0"
+            android:contentDescription="@string/justCool" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_alignRight="@+id/editText3"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView1"
+            android:layout_alignRight="@+id/imageView1"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="32dp"
+            android:background="@android:drawable/btn_default"
+            android:onClick="saveReport"
+            android:text="@string/saveBtn" />
+
+    </RelativeLayout>
+
+</ScrollView>

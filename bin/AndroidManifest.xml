@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.traffic"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/traffic_icon"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+
+        <!--
+        <activity
+            android:name="com.example.traffic.IndexActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        -->
+        <activity
+            android:name="com.example.traffic.IndexActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.traffic.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.traffic.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.example.traffic.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <!--
+        <activity
+            android:name="com.example.traffic.IndexActivity"
+            android:label="@string/title_activity_index" >
+        </activity>
+        -->
+        <activity
+            android:name="com.example.traffic.AddViolation"
+            android:label="@string/title_activity_add_violation" >
+        </activity>
+        <activity
+            android:name="com.example.traffic.ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:parentActivityName="HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.traffic.SpeedActivity"
+            android:label="@string/title_activity_speed"
+            android:parentActivityName="HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="HomeActivity" />
+        </activity>
+        <activity
+            android:name="com.example.traffic.SafetyActivity"
+            android:label="@string/title_activity_safety"
+            android:parentActivityName="HomeActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="HomeActivity" />
+        </activity>
+    </application>
+
+</manifest>

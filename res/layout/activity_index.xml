@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndexActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/appIndexTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/reg_btn"
+        android:onClick="showRegister"
+        android:text="@string/indexRegBtn"
+        android:textColor="#ffffff"
+        android:width="250dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:background="@android:drawable/btn_default"
+        android:height="30dp"
+        android:minHeight="0dip"
+        android:minWidth="0dip"
+        android:onClick="showLogin"
+        android:text="@string/indexLoginBtn"
+        android:textColor="#525252"
+        android:width="250dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:padding="25dp"
+        android:text="@string/appDesc" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/traffic_icon_desc"
+        android:src="@drawable/traffic_signal_icon" />
+
+</RelativeLayout>

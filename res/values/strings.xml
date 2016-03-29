@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Traffic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="usernameHolder">Username</string>
+    <string name="passwordHolder">Password</string>
+    <string name="loginTitle">Login</string>
+    <string name="loginBtnText">Login</string>
+    <string name="preference_file_key">com.example.traffic.pref_file</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="signupLabel">Sign Up</string>
+    <string name="registernameLabel">Name</string>
+    <string name="registernameHolder">Name</string>
+    <string name="registerunameHolder">Username</string>
+    <string name="registeremailHolder">Email</string>
+    <string name="btnRegister">Register</string>
+    <string name="lror">Or</string>
+    <string name="conpasswordHolder">Confirm Password</string>
+    <string name="signupBtn">Sign Up</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="homeTitle">Report a violation</string>
+    <string name="homeDesc">Upload a photo of a traffic violation. This can be any of red singal crossing, wrong way driving or carrying a number of passengers more than a vehicle can handle.</string>
+    <string name="homeBtnUpload">Take Image</string>
+    <string name="comtraffic_pref">preference_file_key</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="appIndexTitle">Traffic Reporter</string>
+    <string name="appDesc">"A traffic violation control and reporting tool for regular citizens. "</string>
+    <string name="indexLoginBtn">Login</string>
+    <string name="indexRegBtn">Register</string>
+    <string name="justCool">Not implemented :P</string>
+    <string name="notes">Valid violations include</string>
+    <string name="note1">Driving past a red signal.</string>
+    <string name="note2">Carrying passengers more than the permitted number of passengers for a vehicle.</string>
+    <string name="note3">Driving in the opposite direction in a one way road.</string>
+    <string name="note4">Turning into or crossing roads without showing hand signals.</string>
+    <string name="uploadedThumb">Used to show the thumbnail of the uploaded image.</string>
+    <string name="traffic_icon_desc">Traffic Sign Icon</string>
+    <string name="delete_uploaded">Delete</string>
+    <string name="capt_img_info">Captured image information</string>
+    <string name="violation_desc">Description</string>
+    <string name="violation_location">Location</string>
+    <string name="save_text">Save</string>
+    <string name="violation_plate">Vehicle Plate No.</string>
+    <string name="title_activity_add_violation">AddViolation</string>
+    <string name="violationInfo">Violation Information</string>
+    <string name="violation_provide">Please provide as much as accurate details you know about the violator.</string>
+    <string name="saveBtn">Report</string>
+    <string name="loading">Loading</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="accountDetails">Account Details</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="Email">Email</string>
+    <string name="totalViolations">Total Violations</string>
+    <string name="reportViolation">Report Violation</string>
+    <string name="speedRate">Speed Rate</string>
+    <string name="trafficRules">Traffic Rules</string>
+    <string name="title_activity_speed">SpeedActivity</string>
+    <string name="currentSpeed">Current Speed</string>
+    <string name="speed">0.0 m/s</string>
+    <string name="speedNote">Note: You need to enable location access in your phone\'s settings before you can track your speed.</string>
+    <string name="title_activity_safety">SafetyActivity</string>
+    <string name="safetyTips">Safety Tips</string>
+
+</resources>

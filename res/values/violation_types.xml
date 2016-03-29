@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="violation_types">
+        <item>Triple on a bike</item>
+        <item>Crossing red signal</item>
+        <item>Wrong way driving</item>
+        <item>Parking around no parking</item>
+        <item>No hand signals</item>
+    </string-array>
+</resources>
